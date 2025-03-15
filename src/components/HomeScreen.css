@@ -1,0 +1,50 @@
+.home-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+  }
+  
+  .home-content {
+    text-align: center;
+    max-width: 600px;
+    padding: 20px;
+  }
+  
+  .home-screen h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .home-screen p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    color: #555;
+  }
+  
+  .start-button {
+    background-color: #4a8f62;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 12px 40px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .start-button:hover {
+    background-color: #3a7450;
+  }
+  
+  @media (max-width: 768px) {
+    .home-screen h1 {
+      font-size: 2rem;
+    }
+    
+    .start-button {
+      padding: 10px 30px;
+    }
+  }
